@@ -37,11 +37,11 @@ export default function Collaboration() {
           >
             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Work Together, Anywhere</h3>
             <p className="text-gray-600 mb-6">
-              Experience seamless collaboration with real-time updates. See your team's changes instantly, no matter
+              Experience seamless collaboration with real-time updates. See your teams changes instantly, no matter
               where they are in the world.
             </p>
             <ul className="space-y-4">
-              {["Live cursors", "Instant updates"].map((feature, index) => (
+              {["Live cursors", "Instant updates", "Built-in chat", "Version history"].map((feature, index) => (
                 <motion.li
                   key={index}
                   className="flex items-center text-gray-600"
